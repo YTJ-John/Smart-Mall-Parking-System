@@ -1,0 +1,31 @@
+# Python bytecode and temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/private configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cert.pem
+credentials.json
+
+# Editors, OS files, and local logs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Build/archive output; keep source files in Git
+*.zip
+*.tar.gz
